@@ -1,5 +1,5 @@
 ﻿[Adblock Plus 3.8]
-! Version: 1.01
+! Version: 1.02
 ! Title: Doc Ike's No-Redundancy AdBlock List
 ! Last modified: 02-22-2020
 ! Expires: Weekly (I maintain this manually)
@@ -14,8 +14,6 @@
 clanky.seznam.cz,search.seznam.cz##.Result.Result--organic > :not(.Result-contentContainer):not(.Result-ico):not(.Result-title)
 clanky.seznam.cz,search.seznam.cz##.Result-ico:not([class="Result-ico"])
 clanky.seznam.cz,search.seznam.cz##.Result.Result--organic > .Result-ico:not([class="Result-ico"]) + .Result-contentContainer
-! MISC
-! #9708
 eny.cz,zive.cz##a[href*="pubsrcid="]
 eny.cz,zive.cz###Klapsnice-1
 eny.cz,zive.cz##div[style*='background-image: url("//www.']
@@ -60,17 +58,8 @@ eny.cz,zive.cz###ValRageBottom
 eny.cz,zive.cz##.sticky-wrapper[class*="sticky-"]
 eny.cz,zive.cz##div[style*="width: 300px; height: 600px; left: 50%;"]
 eny.cz,zive.cz##[style*="width: 300px; height: 250px; left: 50%;"]
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/danish.txt ***
-! #8479
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/dutch.txt ***
-! #8479
 ajaxshowtime.com##div.leaderboard_ad + div
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/english.txt ***
-! #8479
-!/reutersmedia\.net\/resources\/r\/\?.*&r=LYNXMPE[A-Za-z0-9]{6}$/$image,domain=de.reuters.com|uk.reuters.com|www.reuters.com
 /s3\.reutersmedia\.net\/resources\/r\/\?.*&r=LYNXMPG1I[A-Z0-9]{2,4}$/$image,match-case,domain=de.reuters.com|uk.reuters.com|
-! #9276
-! #9272
 cbssports.com##.skybox-top-wrapper
 cbssports.com###leader_plus_top
 cbssports.com###leader_bottom
@@ -140,24 +129,14 @@ msn.com##li[data-yvei*="meStripe.overstock"]
 msn.com##li[data-yvei*="meStripe.eBay"]
 msn.com##section[data-yvei*="providerHouseAd"]
 msn.com##div[data-yvei*="todayshowcasead"]
-! #9274
-! #9343
 tube8.com##.gridBanner_
 tube8.com##.footerBanner
 youporn.com##[data-track="ad-iframe-top"]
 xhamster.com##.wit-sponsor-banner
 xhamster.com##.xplayer-banner-bottom
-! #10385
-! #10386
 hotmovs.com##div[class^="vda-closeplay"]
-! #15116
 kickassanime.io##.ka-ax-wrapper
-! #9708
 filmxy.one##.promo-contents
-! #15096
-! #18467
-! #18476
-! #18552
 9to5mac.com,9to5google.com,9to5toys.com##iframe[data-google-container-id]
 9to5mac.com,9to5google.com,9to5toys.com##iframe[title="Advertisement"]
 9to5mac.com,9to5google.com,9to5toys.com,marketrealist.com,electrek.co,dronedj.com##iframe[title="3-rd party ad content"]
@@ -165,7 +144,6 @@ marketrealist.com##div[id^="ksskpi_ehw_mjveqi_/11060405"]
 9to5toys.com##div[id^="jrrjoh_dgv_liudph_/1049447"]
 9to5toys.com##iframe[id="jrrjoh_dgv_iudph1"]
 marketrealist.com##div[id^="jrrjoh_dgv_liudph_"]
-! #16818
 dailymail.co.uk##.billboard
 dailymail.co.uk##.puff-ad
 dailymail.co.uk##.sliding_mpu
@@ -176,55 +154,27 @@ dailymail.co.uk###js-sky-right
 dailymail.co.uk###js-sky-left
 dailymail.co.uk##.mpu_puff_wrapper
 dailymail.co.uk##[name^="google_ads_iframe_"]
-! #18788
-! #18836
 quora.com##.u-margin-top--lg+div[class="UnifiedAnswerPagedList PagedListFoo unified"][id$="_paged_list"]
 quora.com##.pagedlist_item > div[id$="_paged_list"]
 quora.com##.answer_auto_expanded_comments + div > div.feed_expand
 quora.com##.feedback_wrapper.hidden:not(.negative_action) + .FeedStory.HyperLinkFeedStory.feed_item
 quora.com##div[class="question_main_col"]  > div:nth-child(3) > div[class="UnifiedAnswerPagedList PagedListFoo unified"]
 quora.com##div[class="pagedlist_item"]  div[id*="paged_list"]
-! #13895
 indiatimes.com##div > a[onclick*="utm_source"]
 iamgujarat.com##.esi_ads_widget
 samayam.com,indiatimes.com##a[onclick][rel="nofollow,noindex"]
 indiatimes.com##a[onclick*="timesofindia.indiatimes.com/tilockbk/"]
 mensxp.com##a[onclick*="mensxp.com//asddjm/"]
-! #16030
-! #10531
 softonic.com##.ad-content-wrapper
-! #10409
 ,onvid.host,onvid.icu,onvid.online,onvid.pw,onvid.xyz,ovid.icu,ovid.pro,ovid.site,ovid.world,vidhd.club,vidhd.fun,vidhd.pw#$#abort-
-! MISC
 gaobook.review,mavplayer.xyz,svpri.xyz,vaplayer.xyz,xstreamcdn.com,flashx.pw,flashx.tv,embed.media,fembed.com,vidplayer.cz#$#abort-
 jawcloud.co,kimcartoon.to,europixhd.net,europixhd.com,gledajonline.net,hdeuropix.io,loadsubs.net,topeuropix.net#$#abort-current-
 kickassanime.io##.ka-ax-wrp.mb-3
-! Popunders
-! #10530
 mylinks.com,01fmovies.com,ffmovies.ru,fmovies.taxi,fmovies.to,fmovies.world,fmovies123.cc,fmovieson.com,thefmovies.me#$#abort-
-! #20940
 ,gomovies.es,gomovieshub.io,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.pw,flashx.tv,cloudvideo.tv#$#abort-on-
-! #10644
 yuudrive.me,hdhub4u.pw,hdhub4u.website,thevid.net,thevid.tv,biter.tv,byter.tv,flashx.pw,flashx.tv,serieslatinoamerica.com#$#abort-on-
-! #21283
-! #21547
 nyasatimes.com##a[href="http://www.tnm.co.mw/"]
 nyasatimes.com##a[href^="http://www.africa.airtel.com"]
-! #22109
-! Popups
-! #19788
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/french.txt ***
-! #8479
-! #9274
-! #16030
-! #10531
-! MISC
-! #22109
-! #10530
-! #20940
-! MISC
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/german.txt ***
-! #8471
 /www\.meinestadt\.de\/[i|m|g|s|h]{3,7}\/.+(gif|jpg|png)/$image,domain=meinestadt.de
 /www\.quoka\.de\/.+\/.+\/\w+\/\w+\.(gif|jpg|png)/$image,domain=quoka.de
 /www\.spieletipps\.de\/.+\w+\/\w+\.(gif|jpg|png)/$image,domain=spieletipps.de
@@ -236,44 +186,14 @@ nyasatimes.com##a[href^="http://www.africa.airtel.com"]
 /www\.frag-mutti\.de\/.+\w+\/\w+\.(gif|jpg|png)/$image,domain=frag-mutti.de
 /www\.weser-kurier\.de\/.+\w+\/\w+\.(gif|jpg|png)/$image,domain=weser-kurier.de
 /www\.donnerwetter\.de\/.+\w+\/\w+\.(gif|jpg|png)/$image,domain=donnerwetter.de
-! #8479
-! #9272
-! #15654
 www.t-online.de##img[src^="https://"][src*="stroeerdp.de/"][src$=".gif"]
 t-online.de##div[style] + img[src*=".stroeerdp.de/"]
 t-online.de##a.Tctiga[href="https://t-online.de"]
 t-online.de##a.Tctiga[href="https://t-online.de/"]
 t-online.de##a.Tctiga[href^="https://t-online.de/#"]
 t-online.de##a.Tctiga[href^="https://t-online.de/-"]
-! #11076
 player.glomex.com##._oasis_video:not([src^="blob:https://player.glomex.com/"])
-! #26029
 pietsmiet.de,morgenpost.de,moviepilot.de##.videoAdUi
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hebrew.txt ***
-! #17095
-! #9274
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/hungarian.txt ***
-! #8479
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/indonesian.txt ***
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/italian.txt ***
-! #8479
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/latvian.txt ***
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/lithuanian.txt ***
-! #20543
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/norwegian.txt ***
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/polish.txt ***
-! #8479
-! #8230
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/portuguese.txt ***
-! #8479
-! #9274
-! #10644
-! MISC
-! #10530
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/romanian.txt ***
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/russian.txt ***
-! #8479
-! #9276
 yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-
 yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-
 yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-
@@ -284,8 +204,6 @@ yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,
 yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-
 yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-
 yandex.uz,yandex.kz,yandex.by,yandex.ee,yandex.kg,yandex.lt,yandex.lv,yandex.md,yandex.az,yandex.fr,yandex.ru,yandex.ua#$#hide-if-
-! #18828
-! #9708
 24tv.ua##.b_reklama
 azov-sea.info##[valign="middle"]
 azov-sea.info##td[width="330"]
@@ -300,35 +218,7 @@ etextlib.ru##.partners
 etextlib.ru##.head_bann
 kinohome.net##a[data-i]
 indoxx1.show##img[src^="blob:https://indoxx1.show/"]
-! #19360
-! #19362
-! #19890
-! MISC
-! Popups & Popunders
-! #20468
-! #21363
-! #24711
-! #26248
-! #20940
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/spanish.txt ***
-! #8479
-! #9272
 mamaslatinas.com##.top-bar-content
-! #10385
-! #21283
-! MISC
-! #22109
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/swedish.txt ***
-! #8479
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/turkish.txt ***
-! #8479
-! #9276
-! #10531
-! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/tamil.txt ***
-! #9274
-!
-!
-!
 ###adblock_screen
 ###adblock_message
 ##.adblockInfo
@@ -338,21 +228,14 @@ mamaslatinas.com##.top-bar-content
 ##.deadblocker-header-bar
 ##.detected-block-modal
 ##.no-ad-reminder
-!
 myegy.cc,myegy.io,myegy.to##.disclaimer
 4algeria.com###exposeMask
 chahid4u.tk###unblocker
 4algeria.com##.xenOverlay
-!
-!
-! *** antiadblockfilters:antiadblockfilters/antiadblock_chinese.txt ***
-! *** antiadblockfilters:antiadblockfilters/antiadblock_czech.txt ***
-! *** antiadblockfilters:antiadblockfilters/antiadblock_dutch.txt ***
 bouweenpc.nl###header-banner
 rtlxl.nl##.adblock
 spele.nl##.adblocker
 koolhydraatarmerecepten.info##body > [style^="z-index: 1000000; "]
-! *** antiadblockfilters:antiadblockfilters/antiadblock_english.txt ***
 flightradar24.com###bottomRightPanel
 videofun.me###flowplayer > div[class][style]:first-child
 abc-fonts.me###galepro-core-adb-enabled
@@ -384,18 +267,10 @@ nexusmods.com##div[style="float: left; width: 728px; height: 90px; background: #
 playonlinux.com##div[style="text-align:center;  border-radius:7px; width:160px;  border:1px solid #666666;  margin-left:5px;padding-
 byzoo.org,videobug.net##div[style^="position: absolute; width: 300px;"]
 homerun.re,strikeout.co,vipbox.sx,vipleague.ch,vipleague.co,vipleague.is,vipleague.me##span[id][style] > div[id]:first-child:last-
-! NSFW
 redtube.com###as_131
 redtube.com###slidePanelContainerAB
 redtube.com##.qb
 shadbase.com##img[alt="adblock"]
-! *** antiadblockfilters:antiadblockfilters/antiadblock_finnish.txt ***
-! *** antiadblockfilters:antiadblockfilters/antiadblock_french.txt ***
-!
-!
-!
-!
-!
 ###AdBlockDialog
 ###aabl-container
 ###abp-killer
@@ -493,7 +368,6 @@ shadbase.com##img[alt="adblock"]
 ##.top-bar-adblock
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
 ##adblock-detect
-!
 wamiz.com###adblocker
 jaitoutcompris.com###antiBlock
 iphonesoft.fr,iphonetweak.fr###msgUser
@@ -510,18 +384,8 @@ forum.pcastuces.com##div > [src] + [id] + [class][style^="display: block;"]
 closermag.fr##div[id^="detection-block"]
 bd-sanctuary.com,cine-sanctuary.com,comics-sanctuary.com,manga-sanctuary.com##div[style^="background:#444;"]
 pausecafein.fr###adb-pop
-!
-!
-!
-! *** antiadblockfilters:antiadblockfilters/antiadblock_german.txt ***
 ##.diysdk_webServices_banners1und1MainContent
 usgang.ch###rectangle-wrapper
-! *** antiadblockfilters:antiadblockfilters/antiadblock_hebrew.txt ***
-! *** antiadblockfilters:antiadblockfilters/antiadblock_indonesian.txt ***
-! *** antiadblockfilters:antiadblockfilters/antiadblock_italian.txt ***
-! *** antiadblockfilters:antiadblockfilters/antiadblock_latvian.txt ***
-! *** antiadblockfilters:antiadblockfilters/antiadblock_romanian.txt ***
-! *** antiadblockfilters:antiadblockfilters/antiadblock_russian.txt ***
 delfi.ee###ab--notification-ribbon
 minimultik.ru###abDetected
 patrioty.org.ua###ad_pu_modal
@@ -710,13 +574,7 @@ d3.ru##section[data-uid="ad"]
 d3.ru##section[data-uid="extraAd"]
 ph4.ru##table[width][height="90"][style]
 bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
-! *** antiadblockfilters:antiadblockfilters/antiadblock_slovak.txt ***
-! *** antiadblockfilters:antiadblockfilters/antiadblock_spanish.txt ***
-! bc.vc (https://github.com/NanoMeow/QuickReports/issues/198)
-! https://github.com/uBlockOrigin/uAssets/issues/2364
-! Native advert
 /\:\/\/data.*\.com\/[a-zA-Z0-9]{30,}/$third-party,xmlhttprequest
-! Propellerads
 /\.accountant\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
 /\.bid\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
 /\.click\/[0-9]{2,9}\/$/$script,stylesheet,third-party,xmlhttprequest
@@ -748,28 +606,7 @@ bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 /\:\/\/[a-z0-9]{5,}\.com\/[A-Za-z0-9]{3,}\/$/$script,third-party,xmlhttprequest
 ! /\.com/.*[0-9]{2,7}\//$third-party,xmlhttprequest
 ! /\:\/\/([0-9]{1,3}\.){3}[0-9]{1,3}/$third-party,xmlhttprequest
-! Ad-insertion script (see on: celebrityweightloss.com, myfirstclasslife.com, cultofmac.com)
-! Self hosted Ad scripts (seen on: ibtimes.co.uk/newsweek.com)
-! https://github.com/sanosay/exads-adblock
-! prebid scripts
 ! /g00 adware insertion
-! https://github.com/uBlockOrigin/uAssets/issues/227
-! Doubleclick
-! linkbucks.com script
-! CDN-based filters
-! adinsertion used on gizmodo.in lifehacker.co.in
-! domain parking redirection
-! Common adserver string
-! White papers insert
-! Peel script
-! Anti-Adblock
-! *** easylist:easylist/easylist_general_block_dimensions.txt ***
-! *** easylist:easylist/easylist_general_block_popup.txt ***
-! popupads
-! Commonly used popup scripts on movie/tv streaming sites
-! Used with many websites to generate multiple popups
-!------------------------General element hiding rules-------------------------!
-! *** easylist:easylist/easylist_general_hide.txt ***
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -21371,20 +21208,14 @@ bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 ##p[id^="div-gpt-ad-"]
 ##script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content
 ##topadblock
-! internetradiouk.com  / jamaicaradio.net / onlineradios.in etc
 ##.add-box-side
 ##.add-box-top
-! https://github.com/easylist/easylist/issues/3902
 ##.partner-loading-shown.partner-label
-! brave browser overlay ad
 ##.brave-overlay
-! Mgid
 ##[id*="MGWrap"]
 ##[id*="MarketGid"]
 ##[id*="ScriptRoot"]
-! Ad-Maven
 ###\5f _admvnlb_modal_container
-! ducksolutions
 ##a[href^="http://duckcash.eu/"]
 ##a[href^="http://www.cash-duck.com/"]
 ##a[href^="http://www.coinducks.com/"]
@@ -21396,13 +21227,9 @@ bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 ##a[href^="http://www.richducks.com/"]
 ##input[onclick^="window.open('http://www.FriendlyDuck.com/"]
 ##input[onclick^="window.open('http://www.friendlyduck.com/"]
-! ezoic
 ###ezmob_footer
-! Anti-adblock (https://forums.lanik.us/viewtopic.php?f=62&t=32738)
 ###\5f _nq__hh[style="display:block!important"]
-! Trust zone
 ##a[href*=".trust.zone"]
-! Adreclaim
 ###rc-row-container
 ##.impo-b-overlay
 ##.impo-b-stitial
@@ -21418,7 +21245,6 @@ bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 ##[onclick*="content.ad/"]
 ##a[href^="http://rekoverr.com/"]
 ##div > [class][onclick*=".updateAnalyticsEvents"]
-! ampproject
 ##.amp-ad-container
 ##.amp-ad-wrapper
 ##.amp-adv-container
@@ -21428,11 +21254,8 @@ bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 ##.ampad
 ##.spotim-amp-list-ad
 ##AMP-AD
-! Dealnews (Hearst Newspapers)
 ##div[class$="dealnews"] > .dealnews
-! Genric mobile element
 ###mobile-swipe-banner
-! Sinclair Broadcast Group
 ###banner_pos1_ddb_0
 ###banner_pos2_ddb_0
 ###banner_pos3_ddb_0
@@ -21448,29 +21271,19 @@ bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 ##.component-ddb-728x90-v1
 ##.component-ddb-728x90-v2
 ##.ddb
-! Yavli
 ##.gbfwa > div[class$="_item"]
-! Mozo widget
 ##iframe[src^="http://static.mozo.com.au/strips/"]
-! In advert promo
 ##.brandpost_inarticle
-! Forumotion.com related sites
 ###main-content > [style="padding:10px 0 0 0 !important;"]
 ##td[valign="top"] > .mainmenu[style="padding:10px 0 0 0 !important;"]
-! Whistleout widget
 ###rhs_whistleout_widget
 ###wo-widget-wrap
-! Asset Listings
 ###assetsListings[style="display: block;"]
-! Magnify transparient advert on video
 ###magnify_widget_playlist_item_companion
-! easyvideo.me / videozoo.me / paypanda.net
 ###flowplayer > div[style="position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px; z-index: 999;"]
 ###flowplayer > div[style="z-index: 208; position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px;"]
 ##.Mpopup + #Mad > #MadZone
-! https://adblockplus.org/forum/viewtopic.php?f=2&t=17016
 ##.l-container > #fishtank
-! Google
 ###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
 ###center_col > #\5f Emc
 ###center_col > #main > .dfrd > .mnr-c > .c._oc._zs
@@ -21541,12 +21354,10 @@ bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 ##div[role="navigation"] + c-wiz > div > .kxhcC
 ##div[role="navigation"] + c-wiz > script + div > .kxhcC
 ##header#hdr + #main > div[data-hveid]
-! Sedo
 ###ads > .dose > .dosesingle
 ###content > #center > .dose > .dosesingle
 ###content > #right > .dose > .dosesingle
 ###header + #content > #left > #rlblock_left
-! Outbrain
 ###adv_outbrain_SB_1_sidebar
 ###js-outbrain-ads-module
 ###js-outbrain-rightrail-ads-module
@@ -21580,7 +21391,6 @@ bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 ##a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source
 ##a[style="display:block;width:300px;min-height:250px"][href^="http://li.cnet.com/click?"]
 ##a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"]
-! Taboola
 ###block-boxes-taboola
 ###ra-taboola-bottom
 ###taboola-above-article-thumbnails-title
@@ -21628,12 +21438,8 @@ bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 ##a[href^="http://taboola-"][href*="/redirect.php?app.type="]
 ##a[target="_blank"][href^="http://api.taboola.com/"]
 ##div[class^="backfill-taboola-home-slot-"]
-! Tripadvisor
 ###MAIN.ShowTopic > .ad
-! uCoz
-! https://adblockplus.org/forum/viewtopic.php?f=2&t=13414
 ##div[id^="mainads"]
-! yavli.com Sponsored content
 ##.__y_elastic .__y_item
 ##.__y_inner > .__y_item
 ##.__y_outer
@@ -21644,7 +21450,6 @@ bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 ##.icons-rss-feed + .icons-rss-feed div[class$="_item"]
 ##.inlineNewsletterSubscription + .inlineNewsletterSubscription div[class$="_item"]
 ##.jobs-information-call-to-action + .jobs-information-call-to-action div[class$="_item"]
-! Zergnet
 ###boxes-box-zergnet_module
 ###right_rail-zergnet
 ###zergnet
@@ -21673,327 +21478,51 @@ bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 ##.zergpowered
 ##a[href^="http://www.zergnet.com/i/"]
 ##div[id^="zergnet-widget"]
-! *** easylist:easylist/easylist_whitelist_general_hide.txt ***
-! webike domains, fix broken page
-! Anti-Adblock
-!---------------------------Third-party advertisers---------------------------!
-! *** easylist:easylist/easylist_adservers.txt ***
-! Non-flagged (Revolving ad servers)
-! Third-party
-! fiber-ads (https://blog.confiant.com/hong-kong-based-malvertiser-brokers-traffic-to-fake-antivirus-scams-over-100-million-ads-
-! Document blocks
-! IP addresses
-! Altice / Optimum / CableVision injects ads
-! https://github.com/ryanbr/fanboy-adblock/issues/816
-! Dodgy skimmers
-! hilltopads
-! adsterra
-! Propellerads
-! https://forums.lanik.us/viewtopic.php?p=144908#p144908
-! Tag adservers
-! Mobile
-! Admiral
-! Non-English (instead of whitelisting ads)
-! admeasures.com
-! popads.net
-! Chameleon Advertising Technologies
-! Yavli.com
-! ||ruamupr.com^$image,third-party
-! "info" adservers
-! uponit adservers
-!
-! runative.com
-! *** easylist:easylist/easylist_adservers_popup.txt ***
-! IP addresses
-! IP Regex (commonly used, hax'd IP addresses)
 /^https?:\/\/(35|104)\.(\d){1,3}\.(\d){1,3}\.(\d){1,3}\//$popup,third-party
 ! *** easylist:easylist_adult/adult_adservers.txt ***
-! Revolving adservers
-! Document blocks
-! Mobile
-! Pornhub network
-! *** easylist:easylist_adult/adult_adservers_popup.txt ***
-!-----------------------------Third-party adverts-----------------------------!
-! *** easylist:easylist/easylist_thirdparty.txt ***
-! hilltopads
-! Google Hosted scripts
-! Used for VPN Warning ads
-! Mobile
-! Anti-Adblock
 ! *** easylist:easylist/easylist_thirdparty_popup.txt ***
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ! *** easylist:easylist_adult/adult_thirdparty_popup.txt ***
-!----------------------Specific advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_specific_block.txt ***
-! mimecast proxying
-! united.com endless adserver loading
-! Revolving adserver
-! Popads domains
-! CPU abuse
-! https://publicwww.com/websites/%22cloudfront.net%2Fscript.js%22/
-! akvideo.stream
-! steamplay
-! yesmovieshub
-! streamp1ay.me
-! mangareader
 /^https?:\/\/.*mangareader\.net\/.{12,}/$script
-! pwinsider.com
-! moviesweb
-! 4downfiles.org
-! bayfiles.com
-! strikeout / vipleague / olympicstreams / vipstand
-! topeuropix.net
-! cmovies
-! kissanime.ru
-! kiss-anime.ws
-! kissasian.sh
-!torrentdownloads.me | limetorrents.info
-! nowvideo
-! moviewatcher.is
-! ibit.to
 $webrtc,domain=ibit.to
-! unblocked proxies
-! unblocksource.com + unblocked
-! bit.ly
 /^https?:\/\/.*(bitly|bit)\.(com|ly)\/.*/$domain=1337x.to|1ancient-origins.net|c123movies.com|clicknupload.org|downloadpirate.com|
-! Torrent/Pirate sites /sw.js
 /^https?:\/\/.*\/.*(sw[0-9a-z(.|_)]|\.notify\.).*/$script,domain=1337x.to|1360nobs.com|3shktv.com|68dare-t.com|8gharb.com|
-! yourdailypornstars.com
-! cloudvideo
-! Upstream
-! vidotodo
-! tamilrockers
-! audioz.download
-! youzik.com
-! ytmp3.cc
-! ymovies
-! yify-movies.net
-! tornadomovies.co
-! megaup.net
-! 123movies
-! kimcartoon.to
-! bebi script
-! adyou.me
-! nzbstars.com
-! clipwatching.com
-! itdmusic.com
-! imx.to
-! rd.com (Revolving adservers)
-! vidoza.net
 @@$generichide,domain=vidoza.co|vidoza.net
-! filecrypt.cc
-! blacklistednews.com
-! Imagetwist/Imagenpic/Imageshimage
-! imgspice.com
-! Pixhost/Pixroute
-! stream2watch
-! shink
-! world4movies
-! up-4ever.com
-! project-free-tv.ag / myprojectfreetv
-! oneload.site
-! fmovies
-! ancient-origins.net
-! alltube
-! vshare.eu
-! filmlinks4u.is
-! downloadgameps3.com
-! watchvideo
-! series9
-! gowatchseries
-! skidrowreloaded.com
-! ancensored.com (nsfw)
-! embedscr.to
-! video-download.co
-! the123movies
-! veekyforums.com
-! urlcash.net
-! thebarchive.com
-! Rarbg
-! rule34
-! kat.sx
-! multiup.org
-! uploadocean
-! xmovies8
-! fullmatchesandshows.com
-! yts
-! downace.com
-! upload.ac
-! gdtot.com
-! gelbooru.com
 /^https?:\/\/[\w.-]*gelbooru\.com.*[a-zA-Z0-9?!=@%#]{40,}/$image,other,domain=gelbooru.com
-! theinquirer.net / professionaladviser.com
-! vidtodo.com
-! firstrow-related
-! gamerant.com
-! s0ft4pc.com
-! Putlocker
-! Depositfiles/Dfiles
-! Adreclaim
-! rekoverr.com
-! bc.vc
-! eztv
-! adf.ly
-! linkdrop.net
-! tamilyogi.cc
-! salefiles.com
-! damimage.com, imagedecode.com, imageteam.org
-! imgskull.com
-! Imgclick / Imgdew / Imgkings.com / Imgoutlet / Imgrock / Imgtown / Imgtrex / etc
-! filedot.xyz
-! rlslog.net
-! torrenteo.com
-! imgcandy.net
-! streamvid.co
-! 4shared.com
-! streamplay
-! Powvideo
-! cinenews.be/en/
-! vidspot.net
-! vidshare.tv
-! Streamcloud
-! mcloud
-! couchtuner
-! uptobox.com
-! userscloud.com
-! sendit.cloud
-! gounlimited.to
-! downloadpirate.com
-! intoupload.net
-! fastpic
-! monova
-! 1337x.to
-! watchseries
-! Fembed
-! Fastplay
-! flashx
-! m4ufree
-! youwatch.org
-! primewire (and various mirrors)
-! photobucket.com
-! speedplay
-! Washington Times
-! mac-torrent-download.net
-! linkshrink.net
-! Filenuke/sharesix
 /\.filenuke\.com/.*[a-zA-Z0-9]{4}/$script
 /\.sharesix\.com/.*[a-zA-Z0-9]{4}/$script
-! Game Empire Enterprises
-! Zippyshare
-! vidzi.tv
-! uploadfiles.pw
-! upload4earn.org
-! ouo
-! Getlink
-! Imgbox
-! insta-stories.com
-! Test
 /^https?:\/\/.*\.(info|pro|icu|app|xyz|app|pet|win|live|me|io|cc|pw|is|zone|bid|cf|ovh|site|review|ml|xyz)\.*/
-! TPB
-! mp3songfree.net
-! Yavli.com
-! More Yavli
-! Yavli threepercenternation.com
-! Yavli Specific
-! Firefox freezes if not blocked on reuters.com (http://forums.lanik.us/viewtopic.php?f=64&t=16854)
-! Anti-Adblock
-! webrtc-ads
-! websocket-ads
-!
-! IP address
 /^https?:\/\/([0-9]{1,3}\.){3}[0-9]{1,3}/$domain=1337x.to|bittorrent.am|katcr.co|limetorrents.info|magnetdl.com|megaup.net|
-! CSP filters
-! CSP 9to5
 !||9to5google.com^$csp=script-src 'self' *.ytimg.com *.youtube.com *.google.com *.disqus.com *.disquscdn.com
 !||9to5mac.com^$csp=script-src 'self' *.ytimg.com *.youtube.com *.google.com *.disqus.com *.disquscdn.com
 !||electrek.co^$csp=script-src 'self' *.ytimg.com *.youtube.com *.google.com *.disqus.com *.disquscdn.com
 !||dronedj.com^$csp=script-src 'self' *.ytimg.com *.youtube.com *.google.com *.disqus.com *.disquscdn.com
-! CSP Yavli
-! Non-English (instead of whitelisting ads)
-! Mobile
-! Specific filters necessary for sites whitelisted with $genericblock filter option
-! Spiegel.de
 spiegel.de##a[href^="http://paid.outbrain.com/network/redir?"]
 spiegel.de##a[href^="https://paid.outbrain.com/network/redir?"]
 spiegel.de##a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"]
-! bento.de
 bento.de,playbuzz.com##.pbads_after-question_wrapper
 bento.de##.plistaList > .itemLinkPET
 bento.de##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"]
 bento.de##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"]
-! jetzt.de
-! Rewrite to internal resources rules for Adblock Plus
-! *** easylist:easylist/easylist_specific_block_popup.txt ***
-! wyciwyg popups
-! img popups
 /^https?:\/\/(.*)\.(gif|jpg|png|ico|html\?)/$popup,domain=1360nobs.com|3shktv.com|68dare-t.com|8gharb.com|9anime.to|9rendezvous-
-! about:blank popups
 /about:blank.*/$popup,domain=9anime.to|cloudvideo.tv|fmovies.to|katcr.co|mcloud.to|mixdrop.co|mixdrop.to|onlystream.tv|powvideo.net|
-!
 /^https?:\/\/.*\.(info|pro|icu|app|xyz|app|pet|win|live|me|io|cc|pw|is|zone|bid|cf|ovh|site|review|ml|xyz)\.*/
-! semi-generic popup block
 /^http*.:\/\/.*[a-zA-Z0-9]{110,}.*/$popup,domain=0123movies.com|1337x.to|19anime.vip|9anime.to|akvideo.stream|allmyvideos.net|
 /^https?:\/\/.*[&|%|+|=].*/$popup,domain=0123movies.com|1337x.to|1360nobs.com|3shktv.com|68dare-t.com|8gharb.com|9anime.to|
-! data popups
-! image popups
 ! /http*.:\/\/.*/$image,popup,domain=swatchseries.to
-! javascript popups
-! regex to pickup ip-address popups
 /^https?:\/\/([0-9]{1,3}\.){3}[0-9]{1,3}/$popup,domain=0dt.net|123movies.net|adyou.me|ahoypirate.in|akvideo.stream|bayception.pw|
 ! *** easylist:easylist_adult/adult_specific_block.txt ***
 /\/[0-9].*\-.*\-[a-z0-9]{4}/$script,xmlhttprequest,domain=gaytube.com|keezmovies.com|spankwire.com|tube8.com|tube8.es|tube8.fr
 /^https?:\/\/.*\/.*[0-9a-z]{7,16}\.js/$script,domain=boobieblog.com|phun.org
 /^https?:\/\/.*\/[a-z0-9A-Z]{1,5}\/.*\.php/$image,script,subdocument,domain=3movs.com|4tube.com|alotporn.com|alrincon.com|anysex.com|
 /http://[a-zA-Z0-9]+\.[a-z]+\/.*(?:[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]).*[a-zA-Z0-9]+/$script,third-party,domain=keezmovies.com|
-! tbib.org
-! txxx network
-! motherless
 /^https?:\/\/motherless\.com\/[a-z0-9A-Z]{3,}\.[a-z0-9A-Z]{2,}\_/$image,subdocument
-! (/sw.js)
 /^https?:\/\/.*\/.*sw[0-9(.|_)].*/$script,domain=analdin.com|daftsex.com|extremetube.com|fantasti.cc|fux.com|heavy-r.com|
-! pornhive.tv
-! wetplace.com
-! javfhd.net / myhdjav.info
-! xkeezmovies.com
-! xxxkingtube.com
-! updatetube.com
-! pornhd.com
-! xozilla.com
-! efukt.com
-! 4tube.com, porntube.com, pornerbros.com, fux.com
-! pronpic.org
-! fantasti.cc
-! zone-anime.net
-! xmoviesforyou.com
-! rule34hentai.net
-! txxx.com
-! urlgalleries.net
-! pornerbros.com
-! sextube.com
-! milfzr.com
-! anyporn
-! gaybeeg.info
-! hdzog.com
-! amateurdumper.com
-! dreamamateurs.com
-! Sxyprn.com/Myporn.club
-! websocket ads (Adblock Plus beta)
-! Perfectgirls
-! Sexgalaxy
-! Vporn
-! pornomovies.com
-! sexykittenporn.com
-! pussyspace.com
-! smutr.com
 ! *** easylist:easylist_adult/adult_specific_block_popup.txt ***
-! about:blank popups
 /about:blank.*/$popup,domain=katestube.com
-! generic popup block
 /^http*.:\/\/.*[?|=|&|%|#|+].*/$popup,domain=femefun.com
-! ipaddresses
 /\:\/\/([0-9]{1,3}\.){3}[0-9]{1,3}/$popup,domain=bitporno.com|pornxs.com
-!------------------------Specific element hiding rules------------------------!
-! *** easylist:easylist/easylist_specific_hide.txt ***
 poodwaddle.com###AD1
 poodwaddle.com###AD2
 poodwaddle.com###AD3
@@ -22260,7 +21789,6 @@ jokerplayer.net##snackbar
 artstation.com##support-artstation-block
 youtube.com##ytd-compact-promoted-video-renderer
 youtube.com##ytd-promoted-sparkles-text-search-renderer
-!- Mark
 adtunes.com###ad_global_below_navbar
 tvope.com,urbandictionary.com,washingtonmonthly.com,waterford-news.ie,wccftech.com,westernpeople.com,wexfordecho.ie,x1071.ky###ads
 chia-anime.com###ads8
@@ -31817,7 +31345,6 @@ codeproject.com,indiewire.com##iframe[marginwidth]
 codeproject.com,indiewire.com##iframe[name][style]
 codeproject.com,indiewire.com##iframe[style][scrolling]
 codeproject.com,indiewire.com##iframe[style][src]
-! gelbooru.com
 gelbooru.com##.contain-push > .hidden-xs
 gelbooru.com##.contain-push > center > [class]
 gelbooru.com##a[href*=".r18."]
@@ -31826,7 +31353,6 @@ gelbooru.com##a[target="_blank"] > img
 gelbooru.com##center > center > .hidden-xs
 ! reuters.com
 ! reuters.com##* > * > * > [src*="/g/r/?a="]
-! Site Specific filters (used with $generichide)
 autoevolution.com###\5f wlts
 citationsy.com###aaaaaaaaaa
 googlesyndication.com###adunit
@@ -31940,14 +31466,10 @@ smallseotools.com##iframe[id^="google_ads_frame"]
 androidsage.com##ins[data-ad-client]
 world4.eu##ins[style="display:inline-block;width:336px;height:280px"]
 socketloop.com##span[data-ez-name]
-! Bug in uBo: https://github.com/gorhill/uBlock/issues/1885
 newyorker.com##div[class^="Ad_"]
-! Filter for testpages.adblockplus.org
 testpages.adblockplus.org###abptest
-! Advanced element hiding rules for Adblock Plus
 webfail.com#?##aside > :-abp-properties(cursor: pointer;)
 webfail.com#?##subheader + :-abp-properties(text-align: center;)
-! IL
 metacritic.com###leader_bottom
 metacritic.com###leader_middle
 metacritic.com###leader_top_wrapper
@@ -31974,15 +31496,12 @@ ogle.tn,www.google.to,www.google.tt,www.google.us,www.google.vg,www.google.vu,ww
 boston.com,chicagotribune.com,cnet.com,metacritic.com,pcmag.com##div[id^="trc_wrapper_"]
 pcmag.com,sporcle.com##iframe[width="300"]
 pcmag.com,sporcle.com##iframe[width="728"]
-! oriel
 theguardian.com##[data-google-query-id]
-! msn.com
 msn.com##a[href^="https://redirect.viglink.com/"]
 msn.com##a[href^="https://www.amazon."][href*="&tag="]
 msn.com##a[target="_blank"][x-enc]
 msn.com##div[x-enc] > a
 msn.com##iframe[src="about:blank"]
-! Bing
 bing.com###b_results > li:not(.b_algo):not(.b_ans):not(.b_pag):not(.aca_algo):not(.aca_algo_count):not(.b_msg)
 bing.com###mm_pla
 bing.com###verticalads
@@ -32001,7 +31520,6 @@ bing.com#?##b_results > li :-abp-has(span.b_aslcp)
 bing.com#?##b_results > li :-abp-has(span.b_aslcpv4)
 bing.com#?##b_results > li :-abp-has(span:-abp-contains(Ad))
 bing.com##li.b_adBottom
-! *** easylist:easylist_adult/adult_specific_hide.txt ***
 ashemaletube.com###ASHM_imBox_Container
 nudography.com###BannerContainer
 porntack.com###BannerUnder
@@ -33274,295 +32792,26 @@ motherless.com##a[href^="http://www.safelinktrk.com/"]
 motherless.com##div > table[style][border]
 motherless.com##iframe[style]
 motherless.com##table[style*="max-width:"]
-! CSS property filters
-!-----------------------Whitelists to fix broken sites------------------------!
-! *** easylist:easylist/easylist_whitelist.txt ***
 @@||bannersnack.com/banners/$document,subdocument,domain=adventcards.co.uk|charitychristmascards.org|christmascardpacks.co.uk|
 @@||optout.networkadvertising.org^$document
-! Cumulus Radio stations
-! https://github.com/uBlockOrigin/uAssets/issues/6359
-! Memo2
-! vidto
-! csp whitelists
-! Zazzle https://github.com/easylist/easylist/pull/939
-! allow vk.com to confirm age.
-! https://forums.lanik.us/viewtopic.php?p=131491#p131491
-! Yavli
-! Anti-Adblock
 @@/wp-content/themes/$script,domain=9to5mac.com
 @@||jokerly.com/Okidak/adSelectorDirect.htm?id=$document,subdocument
 @@||jokerly.com/Okidak/vastChecker.htm$document,subdocument
-! Google "Related Searches"
-! Gladly.io New Tab extension (https://tab.gladly.io/)
 @@||tab.gladly.io/newtab/|$document,subdocument
-! Non-English
 @@||downol.dr.dk/download/*&clicktag=http$document,subdocument,domain=dr.dk
-! Used as an Anti-adblock check
-! Whitelists to fix broken pages of advertisers
-! Facebook
-! Google
 @@||accounts.google.com^$document,subdocument,domain=adwords.google.com
 @@||bpui0.google.com^$document,subdocument,domain=adwords.google.com
 @@||google.com/payments/*/adwords.$document,subdocument
-! YouTube
-! Quantcast.com
-! http://forums.lanik.us/viewtopic.php?f=64&t=15116&p=53518
-! Marketgid/MGID
-! Healthy Advertising (Spanish)
-! Adfox
-! Openx.com
-! Skimlinks
-! VK.ru/.com
-! AdRoll
-! Teliad
-! Amazon Associates/PartnerNet
 @@||amazon-adsystem.com/e/cm?$document,subdocument,domain=affiliate-program.amazon.co.uk|affiliate-program.amazon.com|affiliate-
 @@||amazon.com/home/ads/$document,subdocument,domain=affiliate-program.amazon.com
-! Yahoo
-! Twitter
-! Gameloft
-! Dailymotion
-! Amazon
-! Adservice.com
-! *** easylist:easylist/easylist_whitelist_dimensions.txt ***
-! *** easylist:easylist/easylist_whitelist_popup.txt ***
 @@|blob:$popup,domain=arbeitsagentur.de|box.com|codepen.io|elo.fi|hardingevans.com|hevans.com|kipp.6f.io|mozo.awana.org|
 @@|data:text^$popup,domain=box.com|labcorp.com|zipit.io
-! Google signup popups
-! Msn
-! *** easylist:easylist_adult/adult_whitelist.txt ***
-! temp comment to fix python-abp issue
-! Pornhub network
-! Anti-Adblock
-! Non-English
-! *** easylist:easylist_adult/adult_whitelist_popup.txt ***
-! eventbrite tracking
-! Consent/GDPR tracking
-! Eulerian
-! clicktripz
-! Interim
-! washingtonpost
-! Mining
-! google tracking
-! Adblock tracking
-! CDN-based filters
-! Russian rating sites
-!-----------------Third-party tracking domains-----------------!
-! *** easylist:easyprivacy/easyprivacy_trackingservers.txt ***
-! Mining
-! Admiral
-!-----------------International third-party tracking domains-----------------!
-! *** easylist:easyprivacy/easyprivacy_trackingservers_international.txt ***
-! German
-! French
-! Armenian
-! Belarusian
-! Bulgarian
-! Chinese
-! Croatian
-! Czech
-! Danish
-! Dutch
-! Estonian
-! Finnish
-! Greek
-! Hebrew
-! Hungarian
-! Icelandic
-! Indonesian
-! Italian
-! Japanese
-! Korean
-! Latvian
-! Lithuanian
-! Norwegian
-! Persian
-! Polish
-! Portuguese
-! Romanian
-! Russian
-! Serbian
-! Slovak
-! Spanish
-! Swedish
-! Thai
-! Turkish
-! Ukranian
-! Vietnamese
-!-----------------Third-party tracking services-----------------!
-! *** easylist:easyprivacy/easyprivacy_thirdparty.txt ***
-! fastly
-! Suspect trackers (from privacy badger)
-!-----------------International third-party tracking services-----------------!
-! *** easylist:easyprivacy/easyprivacy_thirdparty_international.txt ***
-! German
-! Arabic
-! French
-! Belarusian
-! Croatian
-! Chinese
-! Croatian
-! Czech
-! Danish
-! Dutch
-! Estonian
-! Finnish
-! Georgian
-! Greek
-! Hebrew
-! Hungarian
-! Icelandic
-! Indian
-! Indonesian
-! Italian
-! Japanese
-! Korean
-! Latvian
-! Lithuanian
-! Norwegian
-! Persian
-! Polish
-! Portuguese
-! Romanian
-! Russian
-! Serbian
-! Slovak
-! Slovene
-! Spanish
-! Swedish
-! Thai
-! Turkish
-! Ukranian
-! Vietnamese
-!-----------------Individual tracking systems-----------------!
-! *** easylist:easyprivacy/easyprivacy_specific.txt ***
-! Forter
 /^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
-! Airbnb facebook tracking
-! PerimeterX
-! Consent/GDPR tracking
-! Eulerian
-! Fingerprintjs
 /^https?:\/\/.*www\.bhphotovideo\.com\/[a-z0-9]{19,23}\.js/$script,xmlhttprequest
 /^https?:\/\/.*www\.corsair\.(fr|ci|ca|gp|mq|re)\/[a-z0-9]{19,23}\.js/$script,xmlhttprequest
-! stackoverflow
-! Mining
-! regex !
 /([0-9]{1,3}\.){3}[0-9]{1,3}.*(\/proxy|\.wasm|\.wsm|\.wa)$/$third-party,websocket
 /.*(\/proxy|\.wasm|\.wsm|\.wa)$/$websocket,xmlhttprequest,domain=reactor.cc|sickrage.ca|sorteosrd.com|streamplay.to
-!
-! CSP Mining
-! Preliminarily blocking Omniture s_code tracking scripts (versions H.25 - H.25.2) due to breakage 
-! Blocking filters due to High-CPU usage bug (https://adblockplus.org/forum/viewtopic.php?f=11&t=23368)
-! Specific filters necessary for sites whitelisted with $genericblock filter option
-!-----------------International individual tracking systems-----------------!
-! *** easylist:easyprivacy/easyprivacy_specific_international.txt ***
-! German
-! Danish
-! French
-! Arabic
-! Persian / Farsi
-! Bulgarian
-! Chinese
-! Croatian
-! Czech
-! Dutch
-! Finnish
-! Greek
-! Hebrew
-! Hungarian
-! Italian
-! Japanese
-! Korean
-! Latvian
-! Norwegian
-! Polish
-! Portuguese
-! Russian
-! Serbian
-! Slovene
-! Spanish
-! Swedish
-! Thai
-! Turkish
-! Ukrainian
-! Vietnamese
-! Indonesian
-! Specific blocking filters necessary for sites whitelisted with $genericblock filter option
-! Gamestar.de
-! Focus.de
-! tvspielfilm.de
-! Prosieben
-! Wetter.com
-! Woxikon.de
-! Fanfiktion.de
-! boote-forum.de
-! comunio.de
-! planetsnow.de
-! Notebookcheck.com
-! Gofeminin.de
-!-----------------------Whitelists to fix broken sites------------------------!
-! *** easylist:easyprivacy/easyprivacy_whitelist.txt ***
-! facebook related (https://forums.lanik.us/viewtopic.php?f=64&t=43722)
-! Cumulus Radio stations
-! https://github.com/uBlockOrigin/uAssets/issues/6359
-! Tegna news sites
-! Expedia search breakage
-! Mining-related whitelists
-! Chrome bug (Endless loading causing site to crash https://forums.lanik.us/viewtopic.php?f=64&t=25152)
-! Preliminarily whitelisting Omniture s_code tracking pixels (script versions H.25 - H.25.2) due to breakage 
-! Whitelists to fix broken pages of tracking companies
-! Heatmap
-! Google
-!----------------Whitelists to fix broken international sites-----------------!
-! *** easylist:easyprivacy/easyprivacy_whitelist_international.txt ***
-! German
-! French
-! Bulgarian
-! Chinese
-! Czech
-! Danish
-! Dutch
-! Finnish
-! Greek
-! Hebrew
-! Hungarian
-! Italian
-! Bosnian
-! Indonesian
-! Japanese
-! Korean
-! Latvian
-! Norwegian
-! Polish
-! Portuguese
-! Romanian
-! Russian
-! Spanish
-! Swedish
-! Thai
-! Turkish
-! Ukrainian
-! Macedonian
-! Anti-Adblock
-! Taboola
-! Outbrain
-! Newsletter/Subscribe
-! ---------- RSS Buttons ----------
-! 
-! ---------- Scroll To Top Buttons ----------
-! 
 /appBackToTop/
-! Test filters for embeded/in-article video ads
-! Particles dynamic background
-! *** easylist:fanboy-addon/fanboy_notifications_general_block.txt ***
-! *** easylist:fanboy-addon/fanboy_social_general_block.txt ***
-! jquery bpopup
-! https://www.wpvideolock.com/
-! *** easylist:easylist_cookie/easylist_cookie_general_block.txt ***
-! https://github.com/AdguardTeam/AdguardFilters/blob/master/AnnoyancesFilter/sections/cookies_specific.txt#L53
-! ------------------------General element hiding rules-------------------------!
-! *** easylist:fanboy-addon/fanboy_annoyance_general_hide.txt ***
 ###FooterboardMobile
 ###LiShare
 ###MBL_COMM
@@ -34003,7 +33252,6 @@ motherless.com##table[style*="max-width:"]
 ##img[alt="Watch Us on You Tube"]
 ##img[alt="Watch us on YouTube"]
 ##img[title="Subscribe to Email Updates"]
-! Outbrain
 ###around-the-web
 ###g-outbrain
 ###js-outbrain-module
@@ -34042,7 +33290,6 @@ motherless.com##table[style*="max-width:"]
 ##.tr-outbrain-container
 ##.widget_ione-outbrain
 ##.yom-outbrain
-! Taboola
 ###block-boxes-taboola-article-right-rail
 ###js-Taboola-Container-0
 ###moduleTaboolaRightRail
@@ -34107,9 +33354,7 @@ motherless.com##table[style*="max-width:"]
 ##.trc_spotlight_item
 ##.widget_am_taboola_main_widget
 ##.widget_ione-taboola
-! nbc websites app element
 ##.bp-banner
-! Mobile Apps
 ###mn-app-banner
 ###smartbanner-desktop
 ##.branch-banner
@@ -34119,18 +33364,14 @@ motherless.com##table[style*="max-width:"]
 ##.smartbanner-container
 ##.smartbanner-desktop
 ##.z-bit-smartbanner
-! hotjobs widget
 ###hot-jobs
-! Medium-based sites (Bottom bar)
 ##.js-stickyFooter.u-bottom0.u-fixed
 ##.postActionsBar-container
 ##.u-zIndexMetabar.u-fixed
-! Gannett close buttons
 ###back-to-home > .back-to-home-button
 ###close-btn-wrapper > #close-back-btn
 ##.article-section > .ui-button-close
 ##.close-wrap > .close-overlay
-! Self-promo Magazine Ads
 ##.cm-failsafe
 ##.cn_ecom_placement
 ##.ecom-header
@@ -34139,7 +33380,6 @@ motherless.com##table[style*="max-width:"]
 ##.hdr-sub-ad-01
 ##.newsblock-support-cta
 ##.subscription-tout
-! ---------- Newsletter/Signup Messages ----------
 ###EmailOptin
 ###GlobalSlotHeaderNewsletter
 ###HPNewsletter
@@ -35949,25 +35189,16 @@ motherless.com##table[style*="max-width:"]
 ##div[id^="wrapper_newsletter_"]
 ##img[alt="Subscribe via E-mail Newsletter"]
 ##img[title="Subscribe to our daily email"]
-! wix sites
 ###WIX_ADS
-! alextimes.com
 ##.cpcta-flyin
-! gastongazette.com
 ###dialog-message.slideDown
-! medium.com related newsletters
 ##.js-stickyFooter.u-fixed
-! nlgate Newsletter
 ###nlgate
 ###nlgate-overlay-0
-! Various uk Football splashes
 ###splash_mask
 ###splash_mask + #splash_box
-! columbiasportswear.co.uk / columbiasportswear.fi etc
 ##.overflow-wrapper > #notify-bar
-! cartoonnetwork.es/cartoonnetwork.fr
 ##.front-page > #sliding-popup
-! ---------- RSS Buttons ----------
 ###RssIcon
 ###blog-rss
 ###btnRss
@@ -36226,9 +35457,6 @@ motherless.com##table[style*="max-width:"]
 ##img[alt="Subscribe via RSS Feed"]
 ##img[alt="Subscribe via RSS!"]
 ##img[alt="Subscribe via RSS"]
-! 
-! ---------- Scroll to top ----------
-! 
 ###BackToTop
 ###BtmToPageTopArea
 ###Imgback2top
@@ -36872,26 +36100,17 @@ motherless.com##table[style*="max-width:"]
 ##img[alt="back to top"]
 ##img[alt="go to Top"]
 ##li[class*="_back-2-top_"]
-! ziprecruiter.com widget
 ###zipsearch_container
 ##.zr_alerts_widget_container
 ##.zr_alerts_widget_link
-! Autoplay video ads
 ##.ad400
-! Slider Elements
 ###inner-wrap > .slide-dock-on
 ##.site-content > .slide-dock-on
-! huffingtonpost most popular
 ##.rail > .ad_spot + .most-popular
-! Google Translate Chrome Nag
 ##div[style^="behavior:url(#default#homePage) url(#default#userData);background-color:"]
-! AOL top Bar
 ##div[id$="-top-message-bar"][style="top: 0px; display: block;"]
-! Google default search switch nag
 ###searchform > #gb > #gbw .gb_Mc[aria-label="promo"] > .gb_ea
-! Google default homepage nag
 ###searchform > #gb > #gbw .gb_Vc[aria-label="promo"] > .gb_ga
-! *** easylist:fanboy-addon/fanboy_notifications_general_hide.txt ***
 ###NotificationsAskMsg
 ###SubscribePush
 ###SubscribePushNotificationPanel
@@ -37015,7 +36234,6 @@ motherless.com##table[style*="max-width:"]
 ##.ys-push
 ##amp-web-push-widget
 ##div[class^="container_NotificationsBanner_"]
-! *** easylist:fanboy-addon/fanboy_social_general_hide.txt ***
 ###AKDSocialBottom
 ###BF_BUZZBOX
 ###BmkDigg
@@ -50044,20 +49262,13 @@ motherless.com##table[style*="max-width:"]
 ##li[title="Share this"]
 ##span[title="Condividi"]
 ##span[title="Share this article"]
-! manworldmedia sites
 ##.h-fixed-footer
-! intel.com (and regional sites)
 ##.social.footer-links
-! Tag names
 ##FB-LIKE-FLYOUT
-! Bug in uBo: https://github.com/gorhill/uBlock/issues/1885
 ##div[class^="SocialIcons_"]
 ##div[class^="style__social"]
-! Google share icon
 ##KNO-SHARE-BUTTON
-! Amazon sites
 ##.feature > #tell-a-friend
-! *** easylist:easylist_cookie/easylist_cookie_general_hide.txt ***
 ###AF_GDPR
 ###ATEDIN_cookie_warning
 ###AcceptCookie
@@ -61143,56 +60354,36 @@ motherless.com##table[style*="max-width:"]
 ##ytd-consent-bump-renderer
 ##ytd-mealbar-promo-renderer
 ##ytg-notification-footer
-! poki (https://github.com/ryanbr/fanboy-adblock/issues/1166)
 ###app-root.c > .z
-! coches.net / vibbo.com / milanuncios.com / infojobs.net
 ##.sui-CmpUi > .sui-MoleculeNotification
-! selle-proust.fr / schwabenhaus.de / funnelytics.io
 ##.elementor-popup-modal.dialog-widget
-! tuttishop.ch / farnhammaltings.com / ledluxor.com / sammic.fr
 ##.noty_cont > li > .noty_alert > .noty_message
-! superconstellation.org
 ##.uk-position-z-index.uk-position-bottom
-! Test filters
 ##div[class*="CookieConsent"]
-! volkswagen
 ##.vw5-statisticsOptBox
-! oath.com https://github.com/ryanbr/fanboy-adblock/issues/472
 ###cmp-container-id
 ###cmp-ui-iframe
-! cookie forum forms
-! summonerswar-fanforum.de / igvw.de/igvwforum/index.php
 ###cookies > form
-! Amp Cookies
 ###amp-user-notification
 ###amp-user-notification1
-! Common Cookie element
 ###sliding-popup.sliding-popup-bottom
 ###sliding-popup.sliding-popup-top
 ##.biscotto > .biscotto-inner
 ##body.sliding-popup-processed > #sliding-popup
-! zoover
 ##.docked-bottom.info-bar
-! columbiasportswear (various internation)
 ##header > #notify-bar
-! Ebay European Coookies
 ###gh-gb
 ##.gh-banner
 ##.gh-banner-active
-! Google-cookie
 ###epbar
 ###gb[style="min-width: 980px;"] > .gb_wb
 ###pushdown > .gb_ib
 ###pushdown > .gb_wb
 ##div > #cnsh[style="display: block;"]
 ##div[style="min-width: 750px;"] > .gb_wb
-! skoda
 ##.skoda5-statisticsOptBox
-! Tomshardware
 ###prism-modal.prism-modal
-! Kinja-related sites
 ###newprivacy > .alert-box
-! international generic
 ###bottom_dialog > #bottom_dialog_inner
 ###ck_row
 ###dgsvoLayer
@@ -61210,25 +60401,6 @@ motherless.com##table[style*="max-width:"]
 ##.rcc-panel
 ##.recocliv2
 ##.show.cp-wrap
-! -------------------------Third-party blocking rules--------------------------!
-! *** easylist:fanboy-addon/fanboy_annoyance_thirdparty.txt ***
-! Taboola
-! Outbrain servers
-! Embedded video Annoyances
-! *** easylist:fanboy-addon/fanboy_notifications_thirdparty.txt ***
-! *** easylist:fanboy-addon/fanboy_social_thirdparty.txt ***
-! *** easylist:easylist_cookie/easylist_cookie_thirdparty.txt ***
-! --------------------------Specific blocking filters--------------------------!
-! *** easylist:fanboy-addon/fanboy_annoyance_specific_block.txt ***
-! ||lightboxcdn.com^$third-party,domain=adweek.com|ahoramismo.com|hotair.com|androidcentral.com|avclub.com|bearingarms.com|bgr.com|
-! ---------- Newsletter/Signup Buttons ----------
-! ---------- Scroll To Top Buttons ----------
-! *** easylist:fanboy-addon/fanboy_notifications_specific_block.txt ***
-! *** easylist:fanboy-addon/fanboy_social_specific_block.txt ***
-! Specific filters necessary for sites whitelisted with $genericblock filter option
-! *** easylist:easylist_cookie/easylist_cookie_specific_block.txt ***
-! ------------------------Specific element hiding rules------------------------!
-! *** easylist:fanboy-addon/fanboy_annoyance_specific_hide.txt ***
 ceo.com###ActionBarCont
 lawyers.com###ActivityFeedWrap
 crutchfield.com###ArchivedArticleModal
@@ -64469,15 +63641,10 @@ firecold.com##table[style="margin: 30px 0 0 0"]
 briefing.com##table[style="vertical-align: top; text-align: left;\a \9             background-color: White; width: 100%; padding: 
 osnews.com##table[width="285"]
 finestdaily.com##table[width="642"]
-! instgram.com hovercards
 instagram.com##.HoverCard
-! komonews.com / ktul.com / etc
 ##.sd-news-main-footer
-! vox media top bar
 ##.tab-bar-fixed.c-tab-bar
-! medium.com blogs
 ##.screenContent > .u-bottom0
-! Newsletter/signup elements
 e-day.ro,mtlblog.com###CoverPop-cover
 news.yahoo.com###Daily-Ticket-newsletter-promo-8U
 nextshark.com###FbridgeSGWidget
@@ -65445,11 +64612,7 @@ breakingnews.ie##form[name="mc-embedded-subscribe-form"]
 newyorker.com##iframe[src^="/wp-content/assets/static/dfp/"]
 medicinenet.com##iframe[width="170"]
 instagram.com##section > footer[class] + div[class]
-! Google notifications
 ##div > div + [aria-label="promo"][role="region"][data-ved]
-! 
-! ---------- RSS Buttons ----------
-! 
 abovetopsecret.com###RSS
 thetech.com###rss
 newswars.com##.btn-warning
@@ -65459,9 +64622,6 @@ interactive.com,ndtv.com,oki.com,themeditelegraph.com,thetruthaboutcars.com,toki
 africacheck.org,independent.com.mt,monthlyreview.org,telekom.com,thetruthaboutcars.com##.subscribe
 rt.com##.top-menu_feed
 majornelson.com##.widget_mn_speedbump_rss
-! 
-! ---------- Scroll to top ----------
-! 
 chinadailyasia.com###Backtop
 mitsubishicorp.com###GoTop
 asahi.com,voicesevas.ru###ToTop
@@ -65627,9 +64787,7 @@ webuycars.co.za##.up-scroll
 vodafone-wifi.com##.uparrow
 racedepartment.com##.xbScrollButtons
 cker.com,xinhuanet.com##a[href="#top"]
-! zoover regional sites.
 ###ctl00_ZooverBody > #info-bar
-! Embedded video Annoyances
 cultofmac.com###os_dmp_embed_300x250
 crossmap.com##.ad-primary-sidebar
 ibtimes.com##.bk_basic
@@ -65638,7 +64796,6 @@ vvdailypress.com,wwmt.com##.ndn_embed
 newseveryday.com##.s-bn
 christianpost.com##.section-aside-ad2
 wccftech.com##.vdb_player
-! Used with generichide
 newser.com###NewsletterPromo
 computerworld.com.au###art-next_signifier
 ratemyprofessors.com###balaMainContainer
@@ -65682,10 +64839,8 @@ technoshouter.com##.td-more-articles-box
 jewishpress.com##.td-scroll-up
 broadwayworld.com##.widget-subscribe
 stereogum.com##.zergnet-holder
-! Bug in uBo: https://github.com/gorhill/uBlock/issues/1885
 newyorker.com##div[class^="NewsletterSubscribe_"]
 buzzfeed.com##div[id^="mod-newsletter-signup-"]
-! *** easylist:fanboy-addon/fanboy_notifications_specific_hide.txt ***
 kizi.com###kizi-popover-dialog
 livejapan.com###ptcd_modal_dialog
 google.com###pushdown
@@ -65697,7 +64852,6 @@ annahar.com##.notifications-overlay
 9to5google.com,9to5mac.com,electrek.co##.push-notify
 food.com##.pushdown-message
 thechivery.com##.wheelio_holder
-! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
 schufa.de###AC_layout
 pcb.cc###Cntnr6
 softwares-serials.in###FTslide
@@ -67001,7 +66155,6 @@ professionalmuscle.com##table[width="1370"][border="0"]
 chron.com##table[width="300"]
 dailymail.co.uk,thisismoney.co.uk##ul[class^="linksHolder-"]
 lexus.com##ul[data-category="Social Toolbar"]
-! Specific elements because of generichide
 cpu-world.com###SHARE_LINKS
 nationalpost.com###actionbar
 ibtimes.co.uk###article-left-side-share-panel
@@ -67229,7 +66382,6 @@ autobild.de,ndtv.com##a[href^="https://plus.google.com/share?url="]
 ndtv.com##a[href^="https://twitter.com/intent/tweet?"]
 autobild.de,transfermarkt.de##a[href^="https://twitter.com/share?"]
 ndtv.com##a[href^="https://www.facebook.com/sharer.php?u="]
-! *** easylist:easylist_cookie/easylist_cookie_specific_hide.txt ***
 jman.tv###ActionBar
 sausageandciderfestival.co.uk###CC_Bar
 livery.net,yourboatphotos.com###CQ
@@ -67996,12 +67148,9 @@ my.games##header > .gdpr
 weatherbug.com##notification-footer
 satispay.com##p[class^="cookie-banner"]
 truecaller.com##span > .max-w-md.shadow-lg
-! mobile.twitter.com
 mobile.twitter.com###react-root > div > div > .rn-gvpnoh
 mobile.twitter.com##.rn-gvpnoh.rn-eps6nq.rn-13qz1uu
-! Custom Filters
 play.google.com##.gb_g:has-text(cookie)
-! Used with generichide
 msi.com###ccc
 smallseotools.com###cookie-bar
 eteknix.com###cookie-law-info-bar
@@ -68019,14 +67168,6 @@ mashable.com##.cookie-notice
 allmusic.com##.cookie-policy-box
 rp-online.de##.park-snackbar-cookies
 walmart.ca##.privacy-open > div > [class] > div[class^="css"]
-! ------------------------Rules for international sites------------------------!
-! *** easylist:fanboy-addon/fanboy_annoyance_international.txt ***
-! 
-! ---------- Non-english Annoyances ----------
-! 
-! 
-! ---------- Croatian Site Specific Hiding Rules ----------
-! 
 rast.hr###blokDiv
 nasiljudi.hr###footer
 hrportfolio.hr###kolac
@@ -68036,12 +67177,6 @@ poba.hr##.meerkat
 sptv.hr##.scroll-top-arrow
 krovni-nosaci.hr##.topbarBox
 034portal.hr##.vijesti
-! 
-! ---------- Serbian Site Specific Blocking Rules ----------
-! 
-! 
-! ---------- Latvian Site Specific Hiding Rules ----------
-! 
 delfi.lv###sbookmarks_left
 delfi.lv##.after_body
 sputniknewslv.com##.arrowup
@@ -68049,13 +67184,7 @@ delfi.lv##.notification-widget
 delfi.lv##.sbookmarks
 skaties.lv##.skaties-push-notification
 1a.lv##.up-btn
-! 
-! ---------- Non-english Generic Hiding Rules ----------
-! 
 ##.odkl-klass-stat
-! 
-! ---------- Non-english Site Specific Hiding Rules ----------
-! 
 sme.sk###js-top-info-bar
 egmont.cz###nrlskswidget
 thscore.mobi###returnTop
@@ -68065,9 +67194,6 @@ thscore.co##.backTop
 cazin.net##.btn-btt
 avaz.ba##.float-top
 beritaharian.sg##.subscribe
-! 
-! ---------- Arabic Site Specific Hiding Rules ----------
-! 
 businessnews.com.tn###block-webform-client-block-281
 aljadeed.tv###formNL
 adsports.ae###movetop
@@ -68086,9 +67212,6 @@ hamas.ps##.top
 youm7.com##.topTop
 dz-algerie.info##a[href="#top"]
 jarir.com##a[title="top"]
-! 
-! ---------- Chinese Site Specific Hiding Rules ----------
-! 
 acfun.cn###btn-top-shortcut
 thestandnews.com###mc_embed_signup
 thepaper.cn###pjax-switch
@@ -68111,17 +67234,11 @@ metrodaily.hk##.rss
 4gtv.tv##.scrollUP
 mtime.com##.topbar
 am730.com.hk##.topic-pagination
-! 
-! ---------- Danish Site Specific Hiding Rules ----------
-! 
 boligliv.dk,rumid.dk###banner-floating
 goodtimes.dk###modalBackdrop
 goodtimes.dk###modalContent
 computerworld.dk###rolloverBanner
 boligliv.dk,rumid.dk##div[style^="bottom: 0px; height: 1px; left: 0px;"]
-! 
-! ---------- German Site Specific Hiding Rules ----------
-! 
 baguette.at###TopBtn
 valentins.de###arrow-up
 nzz.ch###articleMore
@@ -68194,17 +67311,11 @@ sportnews.bz##.whatsapp
 motorsport-total.com##a[data-target="top"]
 wdr.de##a[href="#goToHead"]
 antennebrandenburg.de,conleys.de,israelheute.com,radioberlin.de,vodafone.de##a[href="#top"]
-! 
-! ---------- Greek Site Generic Hiding Rules ----------
-! 
 capital.gr###infiload-return-top
 nooz.gr###right_popout
 sputniknews.gr##.arrowup
 news247.gr##.newsletter-form
 capital.gr##.rss
-! 
-! ---------- Hungary Site Generic Hiding Rules ----------
-! 
 168ora.hu###article_toolbar
 pcworld.hu###back_top
 life.hu###beuszoAjanlo
@@ -68220,9 +67331,6 @@ hazipatika.com##.cd-top
 hrportal.hu##.fixedbox
 tesco.hu##.infoBarClosable
 infostart.hu##.newsletter-form
-! 
-! ---------- Indian Site Specific Hiding Rules ----------
-! 
 teluguone.com###slidebox
 bhaskarhindi.com###subscribeForm
 sangbadpratidin.in##.cd-top
@@ -68230,9 +67338,6 @@ gujaratsamachar.com##.email-subscriber
 newuthayan.com##.more-stories
 desh.co.in##.newsLetter
 sangbadpratidin.in,vtvgujarati.com##.newsletter
-! 
-! ---------- Polish Site Specific Hiding Rules ----------
-! 
 wtk.com.pl###TB_window
 regenersis.pl###ctl00_cpanel
 benchmark.pl###document_modal
@@ -68282,16 +67387,7 @@ mol.pl##div[style^="position: fixed; bottom: 0px;"]
 joemonster.org##div[style^="position: fixed; bottom:"]
 mklr.pl##div[style^="position: fixed; left:0;"]
 demotywatory.pl##div[style^="position: fixed; width: 750px; margin-left: -375px"]
-! 
-! ---------- Polish Site Specific Blocking Rules ----------
-! 
-! 
-! ---------- Finnish Site Specific Hiding Rules ----------
-! 
 nyt.fi###next-teaser
-! 
-! ---------- Dutch Site Specific Hiding Rules ----------
-! 
 luchtvaartnieuws.nl###block-block-92
 metrotime.be###mc_embed_signup
 luchtvaartnieuws.nl###scrolltop
@@ -68307,18 +67403,12 @@ welingelichtekringen.nl##.top-slide
 welingelichtekringen.nl##.widget_anywp_mailchimp
 israeltoday.nl##a[href="#top"]
 nos.nl##div[class^="notificationBar_"]
-! 
-! ---------- Norwegian Site Specific Hiding Rules ----------
-! 
 bighorn.no###consent
 dagbladet.no###db-inger
 resett.no###mc_embed_signup
 bt.no##.flyout
 firkloveren.no##.reveal-modal-bg
 israeltoday.no##a[href="#top"]
-! 
-! ---------- Swedish Site Specific Hiding Rules ----------
-! 
 emol.com###slidebox
 aftonbladet.se##.abArticleToolbar
 aftonbladet.se##.abPremiumTeaserSalesPitch
@@ -68333,12 +67423,6 @@ bahnhof.se##.top-line-block
 radioplay.se##div[style="background-color:#FFF3CC;"]
 google.se##div[style="min-width: 750px;"] > [style="behavior:url(#default#homePage) url(#default#userData);background-color:#5a5a5a"]
 bolagsverket.se##div[style^="margin: 0px 0px"]
-! 
-! ---------- Russian Site Specific Blocking Rules ----------
-! 
-! 
-! ---------- Russian Site Specific Hiding Rules ----------
-! 
 kinopoisk.ru###GOWrapper
 rzn.info###myNotification
 rbc.ru###popup_box
@@ -68388,12 +67472,6 @@ kommersant.ru##.up_button
 echo.msk.ru##.up_link
 itc.ua##.verticalPageNav
 avtoradio.ru##div[id^="unit_"]
-! 
-! ---------- French Specific Annoyances ----------
-! 
-! 
-! ---------- French Site Specific Hiding Rules ----------
-! 
 ilninth.wordpress.com###MsgContainer
 maisonapart.com###accept-top
 gentside.com###actionreceiver
@@ -68524,9 +67602,6 @@ buzger.com##div[style="z-index:10000000; position:fixed; padding:10px; top:0px; 
 hsbc.fr##div[style^="display: block; margin: 20px 0px 0px 0px;"]
 rtl.be##div[style^="display: block; position: fixed; bottom: 0px;"]
 supersoluce.com##div[style^="position: fixed; width: 100%;"]
-! 
-! ---------- Japanese Site Specific Rules ----------
-! 
 yahoo.co.jp###RSAB
 tv-tokyo.co.jp###bangumi_page_top
 jti.co.jp###footer-pagetop
@@ -68562,9 +67637,6 @@ hotpepper.jp##.scrollWrap
 okjapan.jp##.scroller
 harpersbazaar.jp##.subModuleMailMagazine
 bloomberg.co.jp##BB-MINI-PLAYER
-! 
-! ---------- Turkish Site Specific Hiding Rules ----------
-! 
 milliyet.com.tr###upNextWrapper
 nefisyemektarifleri.com###veriUyari
 meleklermekani.com##.FloatingContainer
@@ -68578,9 +67650,6 @@ trt.net.tr##.rss
 hileliapkoyunindir.com##.site-desc
 milliyet.com.tr##.sticky
 n11.com##.warningAlert
-! 
-! ---------- Portuguese Site Specific Hiding Rules ----------
-! 
 record.xl.pt###MenuDinamico
 record.xl.pt###apDiv2
 oantagonista.com###backtotop
@@ -68605,9 +67674,6 @@ pli-petronas.pt##.ui-dialog
 pli-petronas.pt##.ui-widget-overlay
 uc.pt##.warning-bar
 castroelectronica.pt##div[style="height: 35px; background:#2a2a2a; position:absolute; width:100%; top:0; z-index: 999999;"]
-! 
-! ---------- Spanish Site Specific Hiding Rules ----------
-! 
 diariolibre.com###bannerRight4
 eleconomista.es###barra-nav
 telesurtv.net###bulletin
@@ -68652,12 +67718,6 @@ telcel.com##.up_button
 larepublica.cat##.widget_mailpoet_form
 infobae.com##a[href^="/newsletter/"]
 clarin.com##a[href^="/newsletters/"]
-! 
-! ---------- Italian Site Specific Blocking Rules ----------
-! 
-! 
-! ---------- Italian Site Specific Hiding Rules ----------
-! 
 lantidiplomatico.it###BoxGri
 focusjunior.it###FJToTop
 chcflorence.it,hiexpressbolognafiera.it,higenova.it,himilangaribaldi.com,hiturin.it,hizara.it,hotelcontinentalvenice.com###GOZERO
@@ -68853,9 +67913,6 @@ autoscout24.it,billboard.it,calendario-365.it,dagospia.com,lvh.it,regione.marche
 gds.it,qualenergia.it##a[title="Newsletter"]
 inran.it##div[style="background-color: #f0f0f0; text-align: center; font-size:12px; display: block; margin: 0 auto; padding: 3px;"]
 trend-online.com##div[style="display:flex;padding:10px;background:#efefef;border:1px solid #dadada; border-top: 2px solid #638d43"]
-! 
-! ---------- Korean Site Specific Hiding Rules ----------
-! 
 sedaily.com###FooterTop
 naver.com###btn_top
 atlantaradiokorea.com###top_up
@@ -68867,9 +67924,6 @@ sedaily.com##.subscribe_cover
 newsis.com,sedaily.com##.top
 koreatimeshawaii.com##a[href="#top"]
 nnews.mk.co.kr##div[style="width: 525px; border:1px solid #ddd; border-radius: 3px; background: #fafafa; padding: 10px; margin-bottom: 
-! 
-! ---------- Hebrew Site Specific Hiding Rules ----------
-! 
 calcalist.co.il###CornerPromotionDiv
 globes.co.il###GTV_VideoDetails
 tapuz.co.il###LikeTapuzImage
@@ -68895,9 +67949,6 @@ tapuz.co.il##.tapuzShareBar
 wheel.co.il##.xbFootNewsForm
 onlife.co.il##div[style="height:264px; background-color:white;width: 300px; float: left;margin-bottom:0px;"]
 walla.co.il##div[style="margin-top:10px;margin-bottom:10px;"]
-! 
-! ---------- Romanian Site Specific Hiding Rules ----------
-! 
 capital.ro###lastmin
 zf.ro###scrollTop
 antena3.ro###slidebox
@@ -68911,15 +67962,8 @@ capital.ro,evz.ro##.newsletter
 stirileprotv.ro##.notification-wrapper
 antena3.ro##.push-notification
 dcnews.ro##.pushinstruments
-! 
-! ---------- Ukranian Site Specific Hiding Rules ----------
-! 
 nbnews.com.ua###iosauth
 epochtimes.com.ua###scroll_house
-! *** easylist:fanboy-addon/fanboy_social_international.txt ***
-! 
-! ---------- Non-English Social Media Elements ----------
-! 
 novinite.bg###article_options
 tj.com,sputnik.az,sputnik.by,sputnik.kg,sputniknews-uz.com,sputniknews.kz,sputniknews.lt###share
 meteovista.si,tvsa.ba###social
@@ -68929,31 +67973,19 @@ t,landrover.ua,landroverarmenia.am,ohtuleht.ee##.share
 europages.ee,europages.eu,europages.fi,europages.lt,europages.si,football.ir,rts.rs,sanook.com##.social
 irinn.ir##.social-network
 yle.fi##.yle__article__header__shareButtons
-! 
-! ---------- Danish Specific Social Media Elements ----------
-! 
 politikenhistorie.dk##.article__pagetools
 jyllands-posten.dk##.bylineToolbar
 politikenhistorie.dk##.pagetools
 dr.dk,gettyimages.dk,landrover.dk##.share
 europages.dk##.social
-! 
-! ---------- Greek Specific Social Media Elements ----------
-! 
 sputniknews.gr##.article__google-news
 capital.gr##.controls
 insomnia.gr##.share
 europages.gr,pentapostagma.gr##.social
 gazzetta.gr##.toolbar
-! 
-! ---------- Indonesian Specific Social Media Elements ----------
-! 
 cnbcindonesia.com,cnnindonesia.com##.share
 cnnindonesia.com##.social
 cnnindonesia.com##.sosmed
-! 
-! ---------- Indian Specific Social Media Elements ----------
-! 
 dinamani.com,samakalikamalayalam.com###print_article
 epaperlokmat.in,gujaratsamacharepaper.com##.facebook-page
 lionexpress.in##.like-text
@@ -68963,9 +67995,6 @@ amarujala.com##.rgt-links
 mediacorp.sg,webdunia.com##.share
 mathrubhumi.com##.tFB
 mathrubhumi.com##.tYT
-! 
-! ---------- Turkish Specific Social Media Elements ----------
-! 
 meteovista.com.tr###social
 trt.net.tr##.facebook
 cosmopolitanturkiye.com,esquire.com.tr,harpersbazaar.com.tr,samdan.com.tr##.gl-btn
@@ -68982,17 +68011,11 @@ trthaber.com##.son
 haberinadresi.com,minika.com.tr##.sosyal
 diyanet.tv##.sosyal-alt-ust
 trt.net.tr##.twitter
-! 
-! ---------- Latvian Specific Social Media Elements ----------
-! 
 autoline.lv,landrover.lv##.share
 europages.lv,latvija.lv##.social
 sputniknewslv.com###share
 tvnet.lv###fancybox-overlay
 tvnet.lv###fancybox-wrap
-! 
-! ---------- Hungarian Specific Media Elements ----------
-! 
 nemzetisport.hu###didyou
 life.hu###rating
 instyle.hu###stickInArticle
@@ -69006,12 +68029,6 @@ diningcity.hu,hvg.hu,landrover.hu,napi.hu,nuus.hu##.share
 atv.hu,europages.co.hu,hvg.hu##.social
 infostart.hu##.topicons
 privatbankar.hu##.utilities
-! 
-! ---------- Chinese Specific Media Elements ----------
-! 
-! 
-! ---------- Chinese Site Specific Hiding Rules ----------
-! 
 appledaily.com###RHSfacebook
 exmoo.com###fixed-wechat
 exmoo.com###footer-wechat-container
@@ -69044,12 +68061,6 @@ ettoday.net,linghit.com##.weibo
 mtime.com##.weixin
 vapee.com##a[href^="http://e.weibo.com/"]
 vapee.com##a[href^="http://t.qq.com/"]
-! 
-! ---------- Japanese Specific Media Elements ----------
-! 
-! 
-! ---------- Japanese Site Specific Hiding Rules ----------
-! 
 srad.jp###article-bottom
 shiseidogroup.jp###extra-tools
 biz-journal.jp,ntv.co.jp###sns
@@ -69080,9 +68091,6 @@ srad.jp##.synd
 toyokeizai.net##.tools
 kakakumag.com##.top-header-sns-link
 nikkei-cnbc.co.jp##.twitter
-! 
-! ---------- German Site Specific Hiding Rules ----------
-! 
 visitberlin.de###block-page-tools
 finanznachrichten.de###bookmarks_container
 clipfish.de###cf-player-googleplus
@@ -69199,23 +68207,9 @@ auto-motor-und-sport.de##a[is-google-trigger]
 presseportal.de##div[id^="facebook_fanbox_"]
 stadt-bremerhaven.de##div[style="background: #f8f8f8; padding:20px;margin:0 0 10px -20px;width: 593px;"]
 gmx.net,web.de##iframe[src^="https://www.facebook.com/plugins/like.php"]
-! Specific hiding filters necessary for sites whitelisted with $generichide filter option
-! Spiegel.de
 spiegel.de##.social-bar
-! Focus.de
 focus.de##.socFbLikeShare
 focus.de##a[href="http://twitter.com/share"]
-! Specific blocking filters necessary for sites whitelisted with $genericblock filter option
-! Gamestar.de
-! Focus.de
-! tvspielfilm.de
-! Wetter.com
-! Woxikon.de
-! Finanzen.net
-! comunio.de
-! 
-! ---------- Polish Site Specific Hiding Rules ----------
-! 
 lifetimetv.pl###block-lifetime-custom-social-puzzle
 pinka.pl###cboxOverlay
 pinka.pl###colorbox
@@ -69243,9 +68237,6 @@ onet.pl##.social-container
 virtualeye.pl##.ssmw-handler
 mf24.pl##.twitter
 mf24.pl##.youtube
-! 
-! ---------- Dutch Site Specific Hiding Rules ----------
-! 
 weeronline.nl###social
 israeltoday.nl##.entry-social
 welingelichtekringen.nl##.followbuttons
@@ -69254,17 +68245,11 @@ at5.nl,autoline-nl.be,autoline.nl,diningcity.nl,epochtimes.nl,gettyimages.nl,lan
 europages.nl,knack.be,rtlnieuws.nl,voetbal24.be,voetbalnieuws.be##.social
 knack.be##.toolbar
 epochtimes.nl##.tools
-! 
-! ---------- Swedish Site Specific Hiding Rules ----------
-! 
 nyheteridag.se##.facebook
 autoline-eu.se,gettyimages.se,landrover.se,va.se##.share
 europages.se,swedroid.se##.social
 sportbibeln.se##.wsfb-wrapper
 radioplay.se##div[style="flex-shrink: 0; border-left: 1px solid rgba(255, 255, 255, 0.3); height: 100%; display: flex; justify-
-! 
-! ---------- Russian Site Specific Hiding Rules ----------
-! 
 ntv.ru###bottomsoc
 dnr-online.ru###footsoc
 rg.ru###rgb_vk
@@ -69307,9 +68292,6 @@ habrahabr.ru##.twitter
 avtoradio.ru##.vk
 avtoradio.ru##.yt
 exzerry.com##body > #links > div[align="center"]
-! 
-! ---------- French Site Specific Hiding Rules ----------
-! 
 directmatin.fr###aside_actions_items
 lachainemeteo.com###barrepartage_home
 radiofrance.fr###block-print-print-links
@@ -69377,9 +68359,6 @@ buzzfil.com,clubic.com,lci.tf1.fr,lesoir.be,pebkac.fr,programme-tv.net,rfm.fr,si
 rfm.fr##.youtube
 blogs.dhnet.be##a[target="_blank"][href^="https://www.facebook.com/pages/"] > img
 mycanal.fr##ul[class^="socials_"]
-! 
-! ---------- Portuguese Site Specific Hiding Rules ----------
-! 
 baixaki.com.br###bxkapp
 jornaldenegocios.pt###partilhar
 meutimao.com.br###redes_sociais
@@ -69399,9 +68378,6 @@ tvcultura.com.br##.redes
 br.com,autoline.pt,epochtimes.com.br,gettyimages.pt,landrover.com.br,landrover.pt,oantagonista.com,r7.com##.share
 abola.pt,conjur.com.br,europages.pt,jornaldenegocios.pt,record.pt,uol.com.br##.social
 epochtimes.com.br##.tools
-! 
-! ---------- Spanish Site Specific Hiding Rules ----------
-! 
 soychile.cl###facebook
 mediterraneodigital.com###jj_sl_navigation
 notiactual.com###redes
@@ -69442,9 +68418,6 @@ eluniversal.com.mx##.uni_videoRedes
 elobservador.com.uy##.user-actions-wrapper
 europafm.com,ondacero.es##.vermas
 publicar.com##img[style="margin: 0px 10px; float: left; width: 26px;"]
-! 
-! ---------- Italian Site Specific Hiding Rules ----------
-! 
 tennisitaliano.it###Utility
 salto.bz###block-block-11
 salto.bz###block-block-6
@@ -69577,9 +68550,6 @@ ilsole24ore.com##[data-type="fb"]
 ilsole24ore.com##[data-type="in"]
 ilsole24ore.com##[data-type="tw"]
 agendadigitale.eu,corrierecomunicazioni.it,insuranceup.it##a[href="#condivisioni"]
-! 
-! ---------- Korean Site Specific Hiding Rules ----------
-! 
 am1660.com,kradio1660.com##.at-lnb-icon
 dknet730.com##.btn-sm
 koreatimes.com##.fab
@@ -69587,17 +68557,10 @@ newsis.com##.function
 myfocus.co.kr##.postSr
 landroverkorea.co.kr,sedaily.com##.share
 koreatimes.com##.twit
-! 
-! 
-! ---------- Hebrew Site Specific Hiding Rules ----------
-! 
 inn.co.il##.Share
 themarker.com##.art__tools
 globes.co.il##.conFollow
 glz.co.il##.facebookSection
-! 
-! ---------- Arabic Site Specific Hiding Rules ----------
-! 
 algerie-radio.com###block-block-11
 watania2.tn###block-block-13
 tunisie-radio.com###block-block-20
@@ -69628,9 +68591,6 @@ skynewsarabia.com##.whats_app
 gharbiaonline.com##.you_tube
 elsharq.org,wesalhaq.tv##.youtube
 wesalhaq.tv##.yt
-! 
-! ---------- Norwegian Site Specific Hiding Rules ----------
-! 
 meteovista.no###social
 israeltoday.no##.entry-social
 vg.no##.facebook
@@ -69639,27 +68599,14 @@ nrk.no##.nrkno-share
 autoline.co.no,gettyimages.no##.share
 europages.no,radio.no##.social
 vg.no##.twitter
-! 
-! ---------- Afrikaans Site Specific Hiding Rules ----------
-! 
 beeld.com,dieburger.com,republikein.com.na,volksblad.com##.social
-! 
-! ---------- Romanian Site Specific Hiding Rules ----------
-! 
 sputnik.md###share
 mediafax.ro##.OptionBar
 newsweek.ro##.icons
 autoline.ro##.share
 capital.ro,europages.ro##.social
-! 
-! ---------- Montenegrin Site Specific Hiding Rules ----------
-! 
 autoline.me##.share
 vijesti.me##.social
-! *** easylist:easylist_cookie/easylist_cookie_international_specific_hide.txt ***
-! 
-! ---------- German ----------
-! 
 herder.de###BottomNotification
 e-formel.de###CKC
 singles-in-stuttgart.de,wander-community.de###DC
@@ -69893,9 +68840,6 @@ bergische-energie.de##div[style^="width: calc"]
 kalenderpedia.de##p
 fc-hansa.de##p[style="display: block; margin: 0px; padding: 10px 30px 10px 10px; color: rgb(255, 255, 255); font-size: 13px; line-
 hl-live.de##table[width="1000"]
-! 
-! ---------- French ----------
-! 
 red-by-sfr.fr,sfr.fr###CkC
 vrin.fr###Disclaimer
 grandeavenue.fr###FixedBannerClientDiv
@@ -69985,34 +68929,19 @@ businessinsider.fr,voici.fr##div[class^="sp_message_container"]
 sportetstyle.fr##div[id^="cookie"]
 tf1.fr##div[id^="msgctrw"]
 privatesportshop.fr##div[style="background: #FFFFE1; border-bottom: 1px solid #A0A0A0; padding: 10px;line-height: 1.4em; text-align: 
-! 
-! ---------- Arabic ----------
-! 
 alhadath.net###consent
 hunalibya.com,manasati30.com###info-bottom
-! 
-! ---------- Bosnian ----------
-! 
 klix.ba##.consent_wrapper
-! 
-! ---------- Bulgarian ----------
-! 
 photocamera.bg###cookies
 zora.bg##.bottom-freezed-bar
 infinitibg.bg##.c_128
 lexus-bulgaria.bg##.disclaimer
 lidl.bg##.notification
-! 
-! ---------- Chinese ----------
-! 
 4gtv.tv###Allow
 on.cc###acceptDisclaimer
 ctm.net###portalheader\:cookiepanel
 drweb.cn##.SHOWIT-msg_showed
 infiniti.com.tw##.c_128
-! 
-! ---------- Croatian ----------
-! 
 ghetaldus.hr,zkl.hr###cookies
 mojkvart.hr###dcw1
 jax.hr###notice
@@ -70025,9 +68954,6 @@ kult-portal.com##.infobar
 usporedi.hr##.modal-backdrop
 lidl.hr,trazi.hr##.notification
 infozona.hr##.popup-overlay
-! 
-! ---------- Czech ----------
-! 
 digimanie.cz,hsvetaudia.cz,svethardware.cz,tvfreak.cz###cfooter
 ssls.cz###ckb
 decathlon.cz###container-screen
@@ -70067,9 +68993,6 @@ clubcard.cz##.ucks
 transformacni-technologie.cz##.upozorneni
 odpovedi.cz##div[style*="position: fixed; display: block;"]
 ceske-sjezdovky.cz##form[style^="display:block;position: fixed;"]
-! 
-! ---------- Danish ----------
-! 
 br.dk,djoef.dk,movieview.dk###cookie
 gricultureandfood.dk###cookies
 duf.dk###cw
@@ -70097,9 +69020,6 @@ avogel.dk##.slideOutContainer
 dplay.dk##div[class^="notification"]
 bilbasen.dk,dba.dk##div[style^="position: fixed; bottom: 0px;"]
 primanotes.dk##div[style^="position: fixed; top: 0;"]
-! 
-! ---------- Dutch ----------
-! 
 autotrader.nl###ATASBAR
 voetbalnederland.nl###T1
 recordplanet.nl###WGbeshrkgj
@@ -70167,9 +69087,6 @@ omroepbrabant.nl##.sticky-footer
 maxict.nl##.wallpop-overlay
 aboutyou.nl##div[class^="styles__container-"]
 waarmaarraar.nl##div[style="margin: 20px; padding-left:20px; padding-right:20px;border: 1px dotted #999999"]
-! 
-! ---------- Finnish ----------
-! 
 atea.fi###cookie
 dna.fi###dna-gdpr-info
 kotimaa24.fi###kotimaa-cookie-notification
@@ -70197,9 +69114,6 @@ suomi24.fi##.s24_cc_banner-wrapper
 vapaasana.swedishforum.net##div[class^="conteneur"][class$="IE"] ~ style ~ div[id]:not([class])
 dplay.fi##div[class^="notification"]
 linnunrata.org##div[style^="position:fixed;right:0;top:0;"]
-! 
-! ---------- Greek ----------
-! 
 heal-link.gr###alert
 hmerologio.gr###sid-container
 news247.gr##.cookie
@@ -70209,12 +69123,6 @@ e-lenovo.gr##.fullwidth-notice
 mortoglou.gr##.header-notice
 lidl-hellas.gr,lidl.com.cy##.notification
 stokokkino.gr##.popup
-! 
-! ---------- Hebrew ----------
-! 
-! 
-! ---------- Hungarian ----------
-! 
 aegon.hu###AEGONCookieLine
 alpinbike.hu,belteriajtok.hu,grandacs.hu,mester.hu###CLayer
 sokkaljobb.hu###SPS_noaccept
@@ -70277,17 +69185,8 @@ gyakorikerdesek.hu##body > div[style^="text-align: left;"]
 rendi.hu##div[style="width:100%; background-color:black; padding: 8px; color:white; opacity:0.8; z-index:2000; position: fixed; 
 laptopsystem.hu##div[style^="position:fixed; bottom:0;"]
 filmkatalogus.hu##table[width="870"][cellspacing="3"]
-! 
-! ---------- Icelandic ----------
-! 
-! 
-! ---------- Indian ----------
-! 
 dinamalar.com##.quickslide
 jiosaavn.com##.site-message-container
-! 
-! ---------- Italian ----------
-! 
 volaparkingorio.it###AeroparkVerona_cookie_advice
 controcampus.it###Controcampus_cookie_advice
 vistaprint.it###MarketingText
@@ -70436,34 +69335,19 @@ clouditalia.com##div[style="width: 1349px; height: 3289px; opacity: 0.8; display
 arsludica.org##div[style^="padding: 0.5em 0px 0.5em"]
 atrio.it##div[style^="position: absolute; top:"]
 email.it##script + div[style^="background: #000000;"]
-! 
-! ---------- Japanese ----------
-! 
 drweb.co.jp##.SHOWIT-msg_showed
 ads.nipr.ac.jp##.backdrop
 jsps.go.jp##.notepanelWrap
 jaguar.co.jp##.notificationBars
 techbang.com##.notify_stickie
 sponichi.co.jp##.toast-info
-! 
-! ---------- Korean ----------
-! 
 infiniti.co.kr##.c_128
-! 
-! ---------- Latvian ----------
-! 
 salidzini.lv###consent-box
 csdd.lv###message-bar
 pnbbanka.eu##.cookie
-! 
-! ---------- Lithuanian  ---------
-! 
 le.lt##.cookie
 lidl.lt##.notification
 go4pro.lt##.wu_container
-! 
-! ---------- Norwegian ----------
-! 
 seher.no,sol.no,start.no###__next > div[class^="css"]
 kube.no###cookie
 homenet.no###toast-container
@@ -70477,9 +69361,6 @@ forsvaret.no##.message-bar
 dekk1.no##.name_infobar.ModuleGroup
 dagbladet.no##.show.css-pp-box
 dplay.no##div[class^="notification"]
-! 
-! ---------- Polish ----------
-! 
 panasonic.pl###CP_Layer
 expozdrowie.pl###alert_popup
 poxilina.com.pl###back-lightbox
@@ -70682,9 +69563,6 @@ pallottinum.pl##div[style^="padding:5px 15px;padding-top:5px;"]
 trzemeszno.pl##div[style^="top:0;left:0;"]
 vas.com.pl##div[style^="top:0;left:0;right:0;"]
 zs1mm.edu.pl##frame
-! 
-! ---------- Portuguese ----------
-! 
 gentside.com.br###actionreceiver
 portugalglobal.pt###barramensagem
 cliper.pt###cook
@@ -70704,9 +69582,6 @@ jaguarportugal.pt,landrover.pt##.notificationBars
 timing.pt##.policy
 suzukimoto.pt##.policy-window
 nh-hoteles.pt##.politicaRewards
-! 
-! ---------- Romanian ----------
-! 
 viatransilvanica.com###accept-popup
 hotnews.ro###avert
 cursbnr.ro###avert_all_page
@@ -70719,9 +69594,6 @@ samsonite.ro##.cookies
 lexus.ro##.disclaimer
 idea-bank.ro,lidl.ro##.notification
 epantofi.ro##.popup
-! 
-! ---------- Russian ----------
-! 
 bancaintesa.ru###agreement
 rosbank.ru###gray_overlay
 sakharov-center.ru###kuk
@@ -70743,16 +69615,10 @@ shophair.ru##.modal_popup_sessid_box
 landrover.ru##.notificationBars
 pegast.ru##.pgs-top
 66.ru##.t-i-agree
-! 
-! ---------- Serbian ----------
-! 
 opusteno.rs###conditions-l
 freemeteo.rs###cookies
 infiniti.co.rs##.c_128
 lidl.rs##.notification
-! 
-! ---------- Slovak ----------
-! 
 etrend.sk###disclaimer
 hpobchod.sk###hpmGmtT
 akcneletaky.sk###infoCoo
@@ -70761,18 +69627,12 @@ lexus.sk##.disclaimer
 tpd.sk##.header__notice__content
 modrykonik.sk##.nc_a
 lidl.sk##.notification
-! 
-! ---------- Slovenian ----------
-! 
 zelena-kava.info###eu-container
 dnevnik.si##.cc-wrapper
 izi.si##.cookies
 lexus.si##.disclaimer
 delo.si,deloindom.si,pogledi.si,polet.si,slovenskenovice.si##.notice
 lidl.si##.notification
-! 
-! ---------- Spanish ----------
-! 
 pacma.es###aceptacion_politicas
 aristeguinoticias.com###comparte
 .es###cookies
@@ -70811,9 +69671,6 @@ arsys.es##.notifications
 contarcaracteres.com##.top-header
 in4.es##.uk-position-fixed
 recepedia.com##div[style^="position: fixed; top:"]
-! 
-! ---------- Swedish ----------
-! 
 kb.se,skanetrafiken.se###cookie
 hkr.se,inscale.se###cookies
 v6.se###layer
@@ -70848,9 +69705,6 @@ smhi.se##.polopolyNotification
 laga.se##.site-info-message
 expressen.se##.terms-dialog
 dplay.se##div[class^="notification"]
-! 
-! ---------- Turkish ----------
-! 
 find.com.tr###KVK_Cerez
 sondakkamanset.com###cerezsorgula
 mepasenerji.com###dataPolicies
@@ -70869,37 +69723,13 @@ yenisafak.com##.policy
 turuncukasa.com##.popin
 etstur.com##.protectionOfData
 fikriyat.com,sabah.com.tr,turkuvazradyolar.com,yeniasir.com.tr##.veriAltBar
-! 
-! ---------- Ukrainian ----------
-! 
 fdu.org.ua###pd_popup
 i.ua##.Disclaimer
 unian.ua##.cookies
 landrover.ua##.notificationBars
 ua-football.com##.policy-mes
 kinoafisha.ua##.privacy-modal
-! 
-! ---------- Vietnamese ----------
-! 
 infiniti-vietnam.com.vn##.c_128
-! 
-! ---------- Estonian ----------
-! 
 linnaleht.ee,ohtuleht.ee##.ntf-container
-! *** easylist:easylist_cookie/easylist_cookie_international_specific_block.txt ***
-! *** easylist:fanboy-addon/fanboy_annoyance_whitelist_general_hide.txt ***
-! *** easylist:fanboy-addon/fanboy_notifications_whitelist_general_hide.txt ***
-! *** easylist:fanboy-addon/fanboy_social_whitelist_general_hide.txt ***
-! *** easylist:easylist_cookie/easylist_cookie_whitelist_general_hide.txt ***
 nzpost.co.nz##.notification.cookies:not(body):not(html)
-! *** easylist:fanboy-addon/fanboy_annoyance_whitelist.txt ***
-! *** easylist:fanboy-addon/fanboy_notifications_whitelist.txt ***
-! *** easylist:easylist_cookie/easylist_cookie_whitelist.txt ***
-! https://github.com/ryanbr/fanboy-adblock/issues/721#issuecomment-443395851
-! https://github.com/ryanbr/fanboy-adblock/issues/1133
-! 
-! International
-! *** easylist:fanboy-addon/fanboy_social_whitelist.txt ***
 @@/wp-content/plugins/wp-rocket/$image,~third-party
-! downdetector mirrors
-! "Muzli - Design Breakfast" Chrome new tab extension (https://chrome.google.com/webstore/detail/muzli-design-
